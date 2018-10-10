@@ -6,8 +6,13 @@
   <%= f.label :artist_name %>
   <%= f.text_field :artist_name %>
   <%= f.collection_select :genre_id, Genre.all, :id, :name %>
+<<<<<<< HEAD
   <input name="song[note_contents][]" id="song_notes_1">
   <input name="song[note_contents][]" id="song_notes_2">
+=======
+  <%= f.label :song_notes_1 %>
+  <%= f.text_field :song_notes_1 %>
+>>>>>>> 308e5372e26cd0ed8ceb0ad69f1fc9e93eca14ff
 
   <br />
 
